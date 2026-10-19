@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Auriculares inalámbricos",
+        "descripcion": "Auriculares Bluetooth con sonido estéreo y batería de larga duración.",
+        "categoria": "Audio",
+        "precio": 45000,
+        "stock": 20
+    },
+    {
+        "id": 2,
+        "nombre": "Teclado mecánico",
+        "descripcion": "Teclado mecánico con conexión USB y teclas de alta precisión.",
+        "categoria": "Accesorios",
+        "precio": 68000,
+        "stock": 15
+    },
+    {
+        "id": 3,
+        "nombre": "Mouse inalámbrico",
+        "descripcion": "Mouse ergonómico con conexión inalámbrica y sensor óptico.",
+        "categoria": "Accesorios",
+        "precio": 25000,
+        "stock": 30
+    },
+    {
+        "id": 4,
+        "nombre": "Parlante Bluetooth",
+        "descripcion": "Parlante portátil con sonido estéreo y batería recargable.",
+        "categoria": "Audio",
+        "precio": 52000,
+        "stock": 15
+    },
+    {
+        "id": 5,
+        "nombre": "Webcam Full HD",
+        "descripcion": "Cámara web Full HD ideal para videollamadas y reuniones.",
+        "categoria": "Periféricos",
+        "precio": 39000,
+        "stock": 5
+    },
+    {
+        "id": 6,
+        "nombre": "Soporte para notebook",
+        "descripcion": "Soporte ajustable para mejorar la posición de trabajo.",
+        "categoria": "Accesorios",
+        "precio": 18000,
+        "stock": 8
+    }
+]

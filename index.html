@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda online de productos tecnológicos.">
+    <title>TecnoShop | Tienda online</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/carrito.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-content">
+            <a class="brand" href="index.html" aria-label="TecnoShop, inicio">
+                <img src="./assets/img/logo.jpg" alt="" width="36" height="36">
+                <span>TecnoShop</span>
+            </a>
+            <a class="cart-link" href="#carrito">
+                Carrito <span id="cart-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro" aria-labelledby="page-title">
+            <p class="eyebrow">TECNOLOGÍA PARA VOS</p>
+            <h1 id="page-title">Encontrá tu próximo producto</h1>
+            <p>Explorá los productos, agregalos al carrito y confirmá tu compra.</p>
+        </section>
+
+        <section class="products-section" aria-labelledby="products-title">
+            <div class="section-heading">
+                <div>
+                    <h2 id="products-title">Nuestros productos</h2>
+                    <p>Elegí los productos que necesitás.</p>
+                </div>
+                <label class="search-label" for="product-search">
+                    Buscar productos
+                    <input type="search" id="product-search" placeholder="Ej.: auriculares" autocomplete="off">
+                </label>
+            </div>
+
+            <p id="loading-message" class="status-message" role="status">
+                Cargando productos...
+            </p>
+
+            <div id="product-list" class="product-grid" aria-live="polite"></div>
+        </section>
+
+        <section id="carrito" class="cart-section" aria-labelledby="cart-title">
+            <div class="section-heading">
+                <div>
+                    <h2 id="cart-title">Tu carrito</h2>
+                    <p>Revisá las cantidades antes de confirmar.</p>
+                </div>
+            </div>
+
+            <div id="cart-items" class="cart-items" aria-live="polite"></div>
+
+            <div class="cart-summary">
+                <p>Total de la compra</p>
+                <p id="cart-total" class="cart-total">$ 0</p>
+            </div>
+
+            <div class="cart-actions">
+                <button id="clear-cart" class="button button-secondary" type="button">
+                    Vaciar carrito
+                </button>
+                <button id="checkout-button" class="button button-primary" type="button">
+                    Confirmar compra
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>TecnoShop · Proyecto Final de JavaScript</p>
+        </div>
+    </footer>
+</body>
+
+</html>
